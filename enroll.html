@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Enroll in the Makeup Course | Tuba Khan</title>
+<meta name="description" content="Enroll in the 30 to 35 day Makeup and Hair course by Tuba Khan in Mumbra. Fill in your details and pay by UPI.">
+<link rel="canonical" href="https://YOUR-DOMAIN.com/enroll.html"><!-- Replace with real domain -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+<div id="site-header"></div>
+<main>
+<section>
+  <div class="wrap">
+    <span class="lbl">Join the Academy</span>
+    <h2>Enroll in the Course</h2>
+    <p>Makeup &amp; Hair course, 30 to 35 days, Mumbra. Fill in your details and pay to reserve your seat. Certification will be provided.</p>
+    <div class="split" style="align-items:start;margin-top:2.5rem">
+      <form id="enroll-form" class="form">
+        <label>Your name<input name="cname" required autocomplete="name"></label>
+        <label>Phone / WhatsApp<input name="phone" type="tel" required autocomplete="tel"></label>
+        <label>City<input name="city" autocomplete="address-level2"></label>
+        <label>Preferred batch / questions (optional)<textarea name="notes" rows="3"></textarea></label>
+        <fieldset><legend>Payment</legend><div id="pay-opts" style="display:grid;gap:10px"></div></fieldset>
+        <p class="note">Products are provided for practice. Portfolio shoot is included.</p>
+        <button class="btn fill" type="submit">Pay Now</button>
+      </form>
+      <aside class="card">
+        <span class="lbl">Enrolment summary</span>
+        <div id="sum"></div>
+        <div class="rule"></div>
+        <span class="lbl">Scan to pay</span>
+        <div id="qr" style="background:#fff;padding:12px;display:inline-block;min-width:60px"></div>
+        <p class="note" id="upi-id"></p>
+        <div id="after" hidden>
+          <p>After paying, send your enrolment details and payment screenshot on WhatsApp.</p>
+          <div class="btns"><a class="btn fill" id="send-wa" href="#">Send Enrolment on WhatsApp</a></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+</main>
+<div id="site-footer"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
